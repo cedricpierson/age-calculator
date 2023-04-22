@@ -1,9 +1,8 @@
 "use client";
 
-import { NextPage } from "next";
 import React, { useState } from "react";
 
-const page: NextPage = () => {
+const page = () => {
   const [days, setDays] = useState("DD");
   const [months, setMonths] = useState("MM");
   const [years, setYears] = useState("YYYY");
