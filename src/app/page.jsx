@@ -34,6 +34,7 @@ const Page = () => {
       setAgeDays(0);
     }
   };
+  console.log(ageDays, ageMonths, ageYears);
   //___________________________________________________________________________________________________
   return (
     <div className="flex justify-center items-center w-full h-screen   bg-[#DBDBDB]">
@@ -90,11 +91,11 @@ const Page = () => {
               className="cursor-pointer mr-8 px-6 py-2.5 border border-slate-300 rounded-md w-40 focus:border-purple-500 focus:outline-none text-3xl font-bold"
             />
           </div>
-          <div className="hover:scale-105 ease-in duration-300 left-16 top-24 cursor-pointer circle bg-purple-600 hover:bg-black">
+          <button className="hover:scale-105 ease-in duration-300 left-16 top-24 cursor-pointer circle bg-purple-600 hover:bg-black">
             <div className="arrow"></div>
             <div className="left"></div>
             <div className="right"></div>
-          </div>
+          </button>
         </form>
         <hr className="my-12 border mr-20 border-slate-200" />
         <div className="">
