@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 
-const page = () => {
+const Page = () => {
   const [days, setDays] = useState("DD");
   const [months, setMonths] = useState("MM");
   const [years, setYears] = useState("YYYY");
@@ -113,4 +113,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
